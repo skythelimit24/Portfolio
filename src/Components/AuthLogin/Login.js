@@ -19,7 +19,7 @@ const LoginForm = () => {
   return (
     <>
     
-    <Container maxWidth="sm" sx={{display:"flex", justifyContent:'center',alignContent:"center", height:"70vh", width:"100vw", padding:10}}>
+    <Container maxWidth="sm" sx={{display:"flex", justifyContent:'center',alignContent:"center", height:"80vh", width:"100vw", padding:10}}>
       <Paper elevation={2} sx={{backgroundColor:`rgb(234, 235, 232)`}}>
 <Grid container sx={{justifySelf:"center",alignItems:"center" ,margin:3}}>
     <Typography variant='h4'>Please Login To Access !</Typography>
