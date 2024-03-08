@@ -12,7 +12,7 @@ export const DataProvider = ({ children }) => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://api.weatherapi.com/v1/forecast.json?key=baa064d78ec04260af5105003241101&q=${input}&days=7&aqi=no&alerts=no`
+          `https://api.weatherapi.com/v1/forecast.json?key=baa064d78ec04260af5105003241101&q=${input}&days=7&aqi=no&alerts=no`
         );
         const result = await response.json();
         if (response.ok) {
