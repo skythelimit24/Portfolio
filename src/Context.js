@@ -4,7 +4,7 @@ const DataContext = createContext();
 export const DataProvider = ({ children }) => {
   const [data, setData] = useState([]);
   const [location, setLocation] = useState(null);
-  const [input, setInput] = useState("newDelhi");
+  const [input, setInput] = useState("mumbai");
   const [hourly,setHourly] = useState(null);
   const [weekly,setWeekly] = useState(null)
 

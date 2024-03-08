@@ -12,7 +12,7 @@ const LoginForm = () => {
 
   const handleLogin = () => {
     localStorage.setItem("USERNAME",username)
-    if (username.length >5 && password.includes("@")) {
+    if (username.length > 3 && password.includes("@")) {
       dispatch(login({ username }));
     }
   };
